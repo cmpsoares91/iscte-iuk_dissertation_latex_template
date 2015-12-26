@@ -13,23 +13,25 @@ The instructions to submit your dissertation at ISCTE-IUL are available in the f
 For more and up-to-date information please check the Institution's Norms and Rules in English:
 * [Norms and Rules](http://www.iscte-iul.pt/en/servicos/servicos_academicos/normas_e_regulamentos.aspx)
 
-***Altered until here***
+###DISCLAIMER:
+We will not guarantee that this template is 100% correct.
+We recommend that you talk to your advisors to check it first, and modify or request modifications.
+We are not responsible for any problem related to your thesis, use this template at your own risk.
+If any problem is found in the template we will be happy to help and fix it if requested **with time**.
+This is a template that was forked from IST's unofficial template, so references to it may be left to change, if you're looking for this template please check [samfcmc/ist-dissertation-latex-template](https://github.com/samfcmc/ist-dissertation-latex-template).
 
-I cannot guarantee you that this template is 100% right.
-I recommend that you talk to your advisors to check it first.
-I am not responsible for something going wrong, if you choose to use this template.
-
-Focus on your thesis and not on the template.
+***Advice: Focus on your thesis and not on the template.***
 
 ## Requirements:
 * Latex: This will depend on your Operating System. You have to check how to install all Latex packages for your OS.
 **Note:** Make sure that the version of Latex that you are installing is the latest one.
-* Any text editor (I use [Atom](https://atom.io/))
+* Any text editor (I use [Atom](https://atom.io/) in Unix and [Notepad++](https://notepad-plus-plus.org/download/) in Windows)
 * Latex plugins for your text editor (this is optional, but it will make your life easier).
 I use the following ones for Atom:
   * [language-latex](https://atom.io/packages/language-latex)
   * [latex](https://atom.io/packages/latex)
   * [latexer](https://atom.io/packages/latexer)
+* Instead of the abovementioned, a Latex specialized editor, such as [TexMaker](http://www.xm1math.net/texmaker/), are easier to setup.
 
 ## Usage
 To use this template, you can simply fork this repo and start working on it.
