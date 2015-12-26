@@ -1,12 +1,19 @@
-# ist-dissertation-latex-template
-Master dissertation Latex template for [Instituto Superior Técnico](http://tecnico.ulisboa.pt/) (Portugal).
-If you are a student in IST and you want to write your dissertation using Latex, this can be a good starting point.
-This template tries to follow this school's specification that you can get here:
-* [Dissertation guidelines](http://da.tecnico.ulisboa.pt/files/sites/33/guia-preparacao-dissertacao-13_14_2.pdf)
+# iscte-iul\_dissertation\_latex\_template
+Master/Doctorate dissertation Latex template for [ISCTE-IUL](http://www.iscte-iul.pt/en) (Portugal).
+If you are a student in ISCTE-IUL and you want to write your dissertation using Latex, this can be a good starting point.
+This template tries to follow this school's specification that you can get here (*Unfortunatelly updated documents are only available in portuguese*):
+* [Dissertation guidelines (pt-PT)](http://www.iscte-iul.pt/Libraries/Servi%C3%A7os_acad%C3%A9micos_-_Normas_e_Regulamentos_2%C2%BA_e_3%C2%BA_Ciclo/Harmonizacao_Doc_UNICO_V7_aprovada_vers%C3%A3o_24112010.sflb.ashx)
+* [Dissertation guidelines (en-GB)](http://iscte-iul.pt/Libraries/GCI_-_Documentos_e_Formul%c3%a1rios/Standards_for_the_presentation_and_graphic_harmonisation_of_master_dissertation_or_project_work_and_doctorate_thesis.sflb.ashx)
 
-The instructions to submit your dissertation at IST are available in the following link:
-* [Delivery instructions](https://fenix.tecnico.ulisboa.pt/downloadFile/845043405434871/MEIC-como%20submeter%20a%20dissertacao-v2.pptx.pdf)
-Sorry but it is only available in portuguese :(
+The instructions to submit your dissertation at ISCTE-IUL are available in the following link:
+* [Delivery instructions and due dates (Doctorate)](http://www.iscte-iul.pt/Libraries/Servi%c3%a7os_acad%c3%a9micos_-_Normas_e_Regulamentos_2%c2%ba_e_3%c2%ba_Ciclo/Normas_Orientadoras_de_3_%c2%ba_Ciclo2010.sflb.ashx)
+* [Delivery instructions and due dates (Master)](http://www.iscte-iul.pt/Libraries/Servi%c3%a7os_acad%c3%a9micos_-_Normas_e_Regulamentos_2%c2%ba_e_3%c2%ba_Ciclo/Normas_orientadoras_dos_2%c2%ba_ciclo2009_doc.sflb.ashx)
+* [Delivery instructions and due dates (Master - Modification Notice)](http://www.iscte-iul.pt/Libraries/Servi%c3%a7os_acad%c3%a9micos_-_Normas_e_Regulamentos_2%c2%ba_e_3%c2%ba_Ciclo/Alteracao_Artigo_2_%c2%ba_Normas_Orientadoras_Disserta%c3%a7%c3%a3o.sflb.ashx)
+
+For more and up-to-date information please check the Institution's Norms and Rules in English:
+* [Norms and Rules](http://www.iscte-iul.pt/en/servicos/servicos_academicos/normas_e_regulamentos.aspx)
+
+***Altered until here***
 
 I cannot guarantee you that this template is 100% right.
 I recommend that you talk to your advisors to check it first.
