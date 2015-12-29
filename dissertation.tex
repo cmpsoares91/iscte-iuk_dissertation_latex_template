@@ -1,26 +1,30 @@
 % ------------------------------------------
-%  MASTER THESIS DISSERTATION
+%  MASTER/DOCTOR THESIS DISSERTATION
 % ------------------------------------------
 % Author:
 %
 % Advisors:
 %
 % ------------------------------------------
-\documentclass[10pt,twoside,openright,a4paper]{report}
+\documentclass[12pt,twoside,openright,a4paper]{report}
 \usepackage[utf8]{inputenc}
 
 % Set document margins to 1in in all sides
 \usepackage[margin=2.5cm]{geometry}
 % Line spacing package
-\usepackage{graphicx, helvet, hyperref, setspace}
+\usepackage{graphicx, helvet, setspace}
+\usepackage[pdfborder={0 0 0}]{hyperref} %for hyperlinks without ugly boxes
 \usepackage[portuguese,english]{babel}
 \usepackage[nomain, acronym, toc]{glossaries}
+%apa citation style
+\usepackage{apacite}
+\bibliographystyle{apacite}
 \input{extra_stuff.tex}
 
 % Built the glossary when the main file is built.
 \makeglossaries
-% Set main font to Arial
-\renewcommand{\familydefault}{\sfdefault}
+% Set main font to Times New Roman
+\renewcommand\rmdefault{ptm}
 % Define keywords macro
 \providecommand{\keywords}[1]{\textbf{Keywords:} #1}
 % Define "palavras-chave" macro
@@ -46,7 +50,7 @@
 \input{acronyms/acronyms.tex}
 
 % ------------------------------------------
-% MASTER THESIS DISSERTATION
+% MASTER/DOCTOR THESIS DISSERTATION
 % ------------------------------------------
 
 \begin{document}
@@ -94,7 +98,6 @@
 
 \input{chapters/main.tex}
 
-\bibliographystyle{ieeetr}
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliography{bibliography/dissertation}
 

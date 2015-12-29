@@ -1,13 +1,15 @@
 %!TEX root = ./dissertation.tex
 
 % ---------------------------------------------------------
-%   MASTER THESIS DISSERTATION COVER
+%  MASTER/DOCTOR THESIS DISSERTATION COVER
 % ---------------------------------------------------------
 \begin{titlepage}
 % ---------------------------------------------------------
 %  INSTITUTION LOGO
 % ---------------------------------------------------------
-\includegraphics[width=5cm]{images/ist_logo}~\\
+\begin{center}
+\includegraphics[width=5cm]{images/iscte_iul_cor}~\\
+\end{center}
 %
 \if\IsFinalVersion 1
   \vspace*{\finalLogoSpacing}
@@ -17,26 +19,39 @@
 
 \begin{center}
 % ---------------------------------------------------------
-%  MASTER THESIS DISSERTATION TITLE
+%  MASTER/DOCTOR THESIS DISSERTATION TITLE
+% ---------------------------------------------------------
+{\LARGE \textbf{\Department}}\\[1.0cm]
+
+% ---------------------------------------------------------
+%  MASTER/DOCTOR THESIS DISSERTATION TITLE
 % ---------------------------------------------------------
 {\LARGE \textbf{\Title}}\\[1.0cm]
+
 % ---------------------------------------------------------
-%  MASTER THESIS DISSERTATION SUBTITLE
+%  MASTER/DOCTOR THESIS DISSERTATION SUBTITLE
 % ---------------------------------------------------------
 {\Large \Subtitle}\\[1.0cm]
+
 % ---------------------------------------------------------
 %  AUTHOR NAME (FULL)
 % ---------------------------------------------------------
 {\Large \textbf{\StudentName}}\\[1.0cm]
+
 % ---------------------------------------------------------
 %  DISSERTATION DEGREE
-% -----------------------------------------------------------------
-{\large Thesis to obtain the Master of Science Degree in}\\[1.0cm]
+% ---------------------------------------------------------
+\if\IsThesis 0
+  {\large A project work presented in partial fulfillment of the Requirements for the Degree of }\\[1.0cm]
+\else\if\IsDoctorateDegree 1
+  	{\large A Thesis presented in partial fulfillment of the Requirements for the Degree of }\\[1.0cm]
+\else
+	{\large A Dissertation presented in partial fulfillment of the Requirements for the Degree of }\\[1.0cm]
+\fi
 % -----------------------------------------------------------------
 %  COURSE NAME
 % -----------------------------------------------------------------
 {\LARGE \textbf{\DegreeName}}\\[1.0cm]
-
 % -----------------------------------------------------------------
 %  ADVISORS NAME
 % ---------------------------------------------------------
